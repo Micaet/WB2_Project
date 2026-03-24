@@ -4,9 +4,9 @@
 Projekt realizowany w ramach kursu Warsztaty Badawcze 2 (2026) dla Grupy 3. Celem jest zbadanie wpływu rankingu ważności danych na efektywność trenowania modeli.
 
 ## Zespół Projektowy
-* Student 1: Kacper Rzeźniczak
-* Student 2: Liliana Sirko
-* Student 3: Syrkiewicz Michał
+* Kacper Rzeźniczak
+* Liliana Sirko
+* Syrkiewicz Michał
 
 ## Metodologia 
 * Badany mechanizm: Ranking oparty na reprezentacjach (Representation-Based Ranking).
