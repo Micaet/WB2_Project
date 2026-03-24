@@ -1,5 +1,4 @@
-# WB2_Project
-# Projekt 2.A: Impact of Data Ranking on Training Dynamics
+# Warsztaty Badawcze 2 Projekt 2.A: Impact of Data Ranking on Training Dynamics
 
 Projekt realizowany w ramach kursu Warsztaty Badawcze 2 (2026) dla Grupy 3. Celem jest zbadanie wpływu rankingu ważności danych na efektywność trenowania modeli.
 
