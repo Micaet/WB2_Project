@@ -21,7 +21,7 @@ Projekt realizowany w ramach kursu Warsztaty Badawcze 2 (2026) dla Grupy 3. Cele
 * Konfiguracja: pyproject.toml.
 
 ## Plan Projektu
-* Faza 1: Konfiguracja repozytorium oraz analiza matematyczna logiki rankingu.
+* Faza 1: Konfiguracja repozytorium, analiza matematyczna logiki rankingu oraz analiza oryginalnego kodu twórców.
 * Faza 2: Budowa pipeline'u i porównanie treningu na pełnym zbiorze oraz podzbiorach dla modelu ResNet50 (Weights: IMAGENET1K_V2).
-* Faza 2 (Warianty): Testy dla modeli zamrożonych (Linear Probe) oraz odblokowanych (Fine-tuning).
+* Faza 2 : Testy dla modeli zamrożonych (Linear Probe) oraz odblokowanych (Fine-tuning).
 * Faza 3: Weryfikacja uniwersalności rankingu na architekturze ConvNeXt_Base (Weights: IMAGENET1K_V1).
