@@ -1,0 +1,27 @@
+# --- Środowisko wirtualne (NAJWAŻNIEJSZE) ---
+.venv/
+venv/
+ENV/
+
+
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Pliki Windowsa ---
+Thumbs.db
+desktop.ini
+
+.idea/
+*.swp-
+*.iml
+*.iws
+*.ipr
+out/
+gen/
+
+.vscode/
+*.code-workspace
