@@ -12,23 +12,16 @@ authors = [
 dependencies = []
 
 [tool.uv]
-# Definiujemy narzędzia deweloperskie osobno
 dev-dependencies = [
     "ruff>=0.3.0",
     "mypy>=1.9.0",
 ]
 
 [tool.ruff]
-# Ustawienia dla lintera i formatera (zastępuje Black i isort)
 line-length = 88
 target-version = "py311"
 
 [tool.ruff.lint]
-# E, W - błędy i ostrzeżenia pycodestyle
-# F - Pyflakes (logika)
-# I - isort (sortowanie importów)
-# B - flake8-bugbear (częste błędy)
-# UP - pyupgrade (modernizacja składni)
 select = ["E", "F", "I", "B", "UP"]
 ignore = []
 
@@ -37,7 +30,6 @@ quote-style = "double"
 indent-style = "space"
 
 [tool.mypy]
-# "Strict mode" to najlepsza praktyka w nowym Pythonie
 strict = true
 python_version = "3.11"
 warn_return_any = true
