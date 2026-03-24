@@ -1,8 +1,9 @@
-name = "{Projekt Warsztaty Badawcze 2}"
+[project]
+name = "Projekt_Warsztaty_Badawcze_2"
 version = "0.1.0"
 description = "Nowoczesne środowisko Python z uv, ruff i mypy"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = "==3.11.*"
 authors = [
     { name = "Kacper Rzeźniczak" },
 { name = "Liliana Sirko" },
