@@ -8,7 +8,7 @@ Projekt realizowany w ramach kursu Warsztaty Badawcze 2 (2026) dla Grupy 3. Cele
 * Student 2: Liliana Sirko
 * Student 3: Syrkiewicz Michał
 
-## Metodologia (Grupa A)
+## Metodologia 
 * Badany mechanizm: Ranking oparty na reprezentacjach (Representation-Based Ranking).
 * Logika rankingu: Analiza gęstości i odległości w przestrzeni cech przy użyciu modelu DINOv2-ViT-L/14.
 * Publikacja bazowa: "What makes for a 'good' Data Augmentation?".
