@@ -1,16 +1,29 @@
 [project]
 name = "Projekt_Warsztaty_Badawcze_2"
 version = "0.1.0"
-description = "Nowoczesne środowisko Python z uv, ruff i mypy"
+description = "Impact of Data Ranking on Training Dynamics - Projekt WB2"
 readme = "README.md"
-requires-python = "==3.11.*"
+requires-python = "==3.10.*"
 authors = [
     { name = "Kacper Rzeźniczak" },
-{ name = "Liliana Sirko" },
-{ name = "Michał Syrkiewicz" }
-	
+    { name = "Liliana Sirko" },
+    { name = "Michał Syrkiewicz" }
 ]
-dependencies = []
+
+# Główne zależności wymagane do uruchomienia eksperymentu
+dependencies = [
+    "torch==2.2.0",
+    "torchvision==0.17.0",
+    "torchaudio==2.2.0",
+    "numpy==1.24.4",
+    "scipy==1.11.4",
+    "matplotlib==3.8.2",
+    "scikit-learn>=1.5.0",
+    "tqdm",
+    "omegaconf",
+    "pandas",
+    "ipykernel",
+]
 
 [tool.uv]
 dev-dependencies = [
@@ -18,9 +31,19 @@ dev-dependencies = [
     "mypy>=1.9.0",
 ]
 
+[[tool.uv.index]]
+name = "pytorch-cu121"
+url = "https://download.pytorch.org/whl/cu121"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu121" }
+torchvision = { index = "pytorch-cu121" }
+torchaudio = { index = "pytorch-cu121" }
+
 [tool.ruff]
 line-length = 88
-target-version = "py311"
+target-version = "py310"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B", "UP"]
@@ -32,7 +55,7 @@ indent-style = "space"
 
 [tool.mypy]
 strict = true
-python_version = "3.11"
+python_version = "3.10"
 warn_return_any = true
 warn_unused_configs = true
 disallow_untyped_defs = true

@@ -22,6 +22,7 @@ desktop.ini
 *.ipr
 out/
 gen/
-
+ssl-data-curation/
 .vscode/
 *.code-workspace
+imagenette2-320/
