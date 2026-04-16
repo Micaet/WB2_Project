@@ -26,3 +26,4 @@ ssl-data-curation/
 .vscode/
 *.code-workspace
 imagenette2-320/
+imagenette.tgz
