@@ -2,7 +2,7 @@
 .venv/
 venv/
 ENV/
-
+Mao/
 
 __pycache__/
 *.py[cod]
