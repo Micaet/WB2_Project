@@ -63,10 +63,10 @@ def train_experiment(train_ds, test_loader, device, title, pretrained=True, epoc
 
     if pretrained:
         model = models.resnet18(weights=models.ResNet18_Weights.IMAGENET1K_V1)
-        lr = 0.0001  # Mniejszy LR dla fine-tuningu
+        lr = 0.0001
     else:
         model = models.resnet18(weights=None)
-        lr = 0.001  # Większy LR dla uczenia od zera
+        lr = 0.001
 
     model.fc = nn.Linear(model.fc.in_features, 100)
     model = model.to(device)
