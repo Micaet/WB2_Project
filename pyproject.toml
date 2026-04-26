@@ -25,6 +25,7 @@ dependencies = [
     "ipykernel",
     "transformers>=5.5.4",
     "ipywidgets>=8.1.8",
+    "datasets>=4.8.4",
 ]
 
 [tool.uv]
